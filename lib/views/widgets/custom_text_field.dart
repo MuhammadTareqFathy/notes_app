@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:notes_app/constants.dart';
-import 'package:notes_app/helper/outline_input_border.dart';
+import 'package:notes_app/constants/constants.dart';
+import 'package:notes_app/views/helper/outline_input_border.dart';
 
 class CustomTextField extends StatelessWidget {
   const CustomTextField({
