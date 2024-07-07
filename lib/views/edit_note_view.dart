@@ -23,7 +23,6 @@ class EditNoteView extends StatelessWidget {
           Padding(
             padding: const EdgeInsets.symmetric(vertical: 8, horizontal: 24),
             child: CustomIcon(
-              onPressed: () {},
               backColor: WidgetStatePropertyAll(
                 Colors.grey.withOpacity(0.1),
               ),
@@ -32,10 +31,7 @@ class EditNoteView extends StatelessWidget {
                   borderRadius: BorderRadius.circular(12),
                 ),
               ),
-              icon: const Icon(
-                Icons.check,
-                color: Colors.white,
-              ),
+              iconData: Icons.check,
             ),
           ),
         ],

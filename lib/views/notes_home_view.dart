@@ -39,10 +39,7 @@ class NotesHomeView extends StatelessWidget {
                   borderRadius: BorderRadius.circular(12),
                 ),
               ),
-              icon: const Icon(
-                Icons.search,
-                color: Colors.white,
-              ),
+              iconData: Icons.search,
             ),
           ),
         ],
@@ -53,7 +50,7 @@ class NotesHomeView extends StatelessWidget {
           kPrimaryColor,
         ),
         outBorder: const WidgetStatePropertyAll(CircleBorder()),
-        icon: const Icon(Icons.add),
+        iconData: Icons.add,
         onPressed: () {
           showModalBottomSheet(
               shape: RoundedRectangleBorder(
